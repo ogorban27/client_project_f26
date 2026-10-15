@@ -8,6 +8,22 @@ header a {
     text-decoration: none;
 }
 
+.skip {
+     position: absolute;
+     z-index: 1000;
+     top: -65px;
+}
+
+.skip:focus {
+    top: 25px;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #FFCB05;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
 nav li{
   display:list-item;
 }
