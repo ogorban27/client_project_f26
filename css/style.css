@@ -29,9 +29,14 @@ nav li{
 }
 
 nav a:hover, nav a:focus {
-    border: 2px solid #FFCB05;
     padding: 5px;
     background-color: #0056b3;
+    font-weight: bold;
+}
+
+.active {
+    border: 2px solid #FFCB05;
+    padding: 5px;
 }
 
 nav a {
