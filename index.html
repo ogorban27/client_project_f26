@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engaged Learning Resources | UMSI</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
 
     <header>
-  <a href = "#main">Skip to Main Content</a>
+  <a href = "#main" class="button-link">Skip to Main Content</a>
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
@@ -19,17 +21,17 @@
                 <li><a href = "faculty.html">Faculty Hub</a></li>
             </ul>
         </nav>
-    <h1>Welcome to the UMSI Engaged Learning Office</h1>
 
     </header>
     <main id="main">
+    <h1>Welcome to the UMSI Engaged Learning Office</h1>
     <section>
       <h2>Build Skills. Work with Partners. Have an Impact.</h2>
       <p>
        The UMSI Engaged Learning Office connects students with opportunities to apply classroom knowledge to real challenges. Use this site to prepare for your experience, manage your work, and reflect on what you learned.
       </p>
 
-      <iframe width="560px" height="315px" src="https://www.youtube.com/embed/81ZO9RfIJEQ?si=tBp82YWZMl1u7CVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/81ZO9RfIJEQ?si=tBp82YWZMl1u7CVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
          <!-- Note: this iframe might cause an Axe ARIA error - that's not on you that's on YouTube! -->
     </section>
 
@@ -50,23 +52,25 @@
  <section>
     <h2>Guidance for Every Stage</h2>
     <p>Engaged learning projects can change as new needs, constraints, and insights emerge. Find guidance for the stage of work you are navigating <srong>now.</strong></p>
-    <article>
-      <h3>Start Here</h3>
+    <section class="container">
+      <h3 class="title">Start Here</h3>
+      <div class="details">
       <p>Set learning goals, understand the project context, examine your assumptions, define team roles, and establish a strong relationship with your partner.</p>
       <a href="prep.html">Prepare for your experience</a>
-    </article>
+      </div>
 
-    <article>
-      <h3>Navigate the Experience</h3>
+      <h3 class="title">Navigate the Experience</h3>
+      <div class="details">
       <p>Manage projects and teams, conduct ethical research, communicate progress, respond to feedback, and work through unexpected challenges.</p>
       <a href="">Find active project resources</a>
-    </article>
+      </div>
 
-    <article>
-      <h3>Wrap Up and Move Forward</h3>
+      <h3 class="title">Wrap Up and Move Forward</h3>
+      <div class="details">
       <p>Complete a responsible handoff, evaluate your impact, reflect on your growth, and translate your work into resume, portfolio, and interview content.</p>
       <a href="">Plan your next steps</a>
-    </article>
+      </div>
+    </section>
   </section>
 
    <section>
@@ -121,7 +125,8 @@
         UMGPT. (2026). UMGPT ( GPT-5.6 Sol September 7th version) [Large language model]. -->
     </main>
     <footer>
-        <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
+        <p>University of Michigan School of Information | </p>
+        <p><a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
       <address>
         <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
       </address>
